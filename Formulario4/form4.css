@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body {
+	background-image: url(https://i.imgur.com/JLKysnd.jpg);
+	background-size: 100% 140%;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+form {
+	width: 450px;
+	height: 620px;
+	margin: auto;
+	background-color: #8acc50;
+	border-radius: 0.5em;
+	padding-bottom: 2em;
+}
+
+h1 {
+	padding-top: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+input {
+	padding: 10px;
+	border: transparent;
+	border-bottom: 3px solid #8fd163;
+	background: transparent;
+}
+
+textarea {
+	border: transparent;
+	background: transparent;
+	border-bottom: 3px solid #ebffd4;
+	padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+}
+
+.bg-remove input {
+	background-color: #fff;
+	text-transform: uppercase;
+	width: 8em;
+	height: 3.5em;
+}
+
+::placeholder {
+	color: white;
+}
+
+.check-space {
+	padding-top: 2em;
+	font-size: 1.2em;
+	background: transparent;
+}
+
+.check-space input:nth-of-type(2) {
+	margin-left: 40px;
+}
+
+/* ! NO TENGO NI IDEA como cambiar el radio  */
+/* input[type="radio"] {
+/* background:  transparent; */
+/* opacity: 0.2;} */
